@@ -1,0 +1,28 @@
+{
+  "machine_name": "YOUR_MACHINE_NAME",
+  "git_remote": "git@github.com:YOUR_GITHUB_USER/claude-config-sync.git",
+  "git": {
+    "remote": "git@github.com:YOUR_GITHUB_USER/claude-config-sync.git"
+  },
+  "sync_sources": {
+    "skills": "~/.claude/skills",
+    "settings": "~/.claude/settings.json",
+    "commands": "~/.claude/commands",
+    "agents": "~/.claude/agents",
+    "plugins": "~/.claude/plugins",
+    "agents_skills": "~/.agents/skills"
+  },
+  "log": {
+    "max_size_mb": 10,
+    "max_archives": 10
+  },
+  "telegram": {
+    "enabled": false,
+    "bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
+    "chat_id": "YOUR_TELEGRAM_CHAT_ID"
+  },
+  "auto_sync": {
+    "pull_interval_minutes": 5,
+    "watch_enabled": true
+  }
+}

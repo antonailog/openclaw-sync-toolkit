@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- fswatch file monitor: watches config changes and auto-pushes -->
+    <key>Label</key>
+    <string>com.claude-sync.watch</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>__HOME__/.claude-sync/scripts/monitor.sh</string>
+        <string>watch</string>
+    </array>
+
+    <!-- Start immediately on load -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- Auto-restart on exit (keep alive) -->
+    <key>KeepAlive</key>
+    <true/>
+
+    <!-- Standard output log -->
+    <key>StandardOutPath</key>
+    <string>__HOME__/.claude-sync/launchd-watch.out</string>
+
+    <!-- Standard error log -->
+    <key>StandardErrorPath</key>
+    <string>__HOME__/.claude-sync/launchd-watch.err</string>
+
+    <!-- Environment variables -->
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>HOME</key>
+        <string>__HOME__</string>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+    </dict>
+
+    <!-- Wait 10 seconds before restart after crash -->
+    <key>ThrottleInterval</key>
+    <integer>10</integer>
+</dict>
+</plist>

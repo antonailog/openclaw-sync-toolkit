@@ -1,0 +1,45 @@
+# ====== Machine-specific files - do not sync ======
+settings.local.json
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+
+# ====== Runtime / cache files ======
+cache/
+debug/
+history.jsonl
+stats-cache.json
+statsig/
+telemetry/
+session-env/
+shell-snapshots/
+ide/
+paste-cache/
+file-history/
+todos/
+transcripts/
+plans/
+tasks/
+teams/
+projects/
+downloads/
+.DS_Store
+
+# ====== Node/Python build artifacts ======
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+
+# ====== Deployment runtime files ======
+.deploy.log
+.deploy-state.json
+
+# ====== Editor temp files ======
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
