@@ -139,7 +139,7 @@ ssh -T git@github.com
 ### 1.1 Clone This Toolkit
 
 ```bash
-git clone https://github.com/yike-gunshi/openclaw-sync-toolkit.git ~/openclaw-sync-toolkit
+git clone https://github.com/antonailog/openclaw-sync-toolkit.git ~/openclaw-sync-toolkit
 ```
 
 ### 1.2 Run Setup
@@ -177,7 +177,7 @@ syncthing --device-id
 ### 2.1 Clone on Mac Mini
 
 ```bash
-git clone https://github.com/yike-gunshi/openclaw-sync-toolkit.git ~/openclaw-sync-toolkit
+git clone https://github.com/antonailog/openclaw-sync-toolkit.git ~/openclaw-sync-toolkit
 ```
 
 ### 2.2 Run Setup with Partner Device ID

@@ -152,7 +152,7 @@ ssh -T git@github.com
 ### 1.1 克隆本工具
 
 ```bash
-git clone https://github.com/yike-gunshi/openclaw-sync-toolkit.git ~/openclaw-sync-toolkit
+git clone https://github.com/antonailog/openclaw-sync-toolkit.git ~/openclaw-sync-toolkit
 ```
 
 ### 1.2 运行部署脚本
@@ -204,7 +204,7 @@ syncthing --device-id
 ### 2.1 在 Mac Mini 上克隆工具
 
 ```bash
-git clone https://github.com/yike-gunshi/openclaw-sync-toolkit.git ~/openclaw-sync-toolkit
+git clone https://github.com/antonailog/openclaw-sync-toolkit.git ~/openclaw-sync-toolkit
 ```
 
 ### 2.2 运行部署脚本（带 MacBook Pro 的设备 ID）
@@ -777,7 +777,7 @@ rm -rf ~/openclaw-sync-toolkit
 
 欢迎贡献！请随时提交 Issue 和 Pull Request。
 
-如果你有任何问题或建议，欢迎在 [Issues](https://github.com/yike-gunshi/openclaw-sync-toolkit/issues) 中讨论。
+如果你有任何问题或建议，欢迎在 [Issues](https://github.com/antonailog/openclaw-sync-toolkit/issues) 中讨论。
 
 ## 许可证
 
